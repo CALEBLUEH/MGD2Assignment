@@ -24,7 +24,7 @@ public class VolumeDisc : MonoBehaviour,
         }
 
         // ===== Audio =====
-        // AudioListener.volume = volume;
+         AudioListener.volume = volume;
         //
         // 或者
         // audioSource.volume = volume;
@@ -62,6 +62,6 @@ public class VolumeDisc : MonoBehaviour,
         volume = normalized;
 
         // ===== Audio =====
-        // AudioListener.volume = volume;
+         AudioListener.volume = volume;
     }
 }
